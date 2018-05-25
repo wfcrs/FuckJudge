@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       btapple
-// @match        http://judge.buaa.edu.cn/assignment/*
+// @match        http://judge.buaa.edu.cn/assignment/programList.jsp*
 // @grant        none
 // ==/UserScript==
 
