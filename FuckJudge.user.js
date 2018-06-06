@@ -6,6 +6,8 @@
 // @author       btapple
 // @match        http://judge.buaa.edu.cn/assignment/programList.jsp*
 // @grant        none
+// @supportURL   https://github.com/wfcrs/FuckJudge/issues
+// @updateURL    https://github.com/wfcrs/FuckJudge/raw/master/FuckJudge.user.js
 // ==/UserScript==
 
 (function() {
