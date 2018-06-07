@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         FuckJudge
 // @namespace    https://github.com/wfcrs/FuckJudge
-// @version      0.1
+// @version      0.11
 // @description  try to take over the world!
 // @author       btapple
-// @match        http://judge.buaa.edu.cn/assignment/programList.jsp*
-// @match        http://judge.e.buaa.edu.cn/assignment/programList.jsp*
+// @match        *://judge.buaa.edu.cn/assignment/programList.jsp*
+// @match        *://judge.e.buaa.edu.cn/assignment/programList.jsp*
 // @grant        none
 // @supportURL   https://github.com/wfcrs/FuckJudge/issues
 // @updateURL    https://github.com/wfcrs/FuckJudge/raw/master/FuckJudge.user.js
