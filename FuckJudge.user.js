@@ -18,7 +18,8 @@
     var c=b.split("?")[1];
     var d=document.querySelector(".tableline2").querySelectorAll("tr");
     var input=document.createElement("input");
-    var e="http://judge.buaa.edu.cn/assignment/judgeDetailsRedirect.jsp?"+c;
+    var websitePrefix = window.location.href.match(/\/\/j.*\.buaa\.edu\.cn/i)[0]
+    var e=websitePrefix+"/assignment/judgeDetailsRedirect.jsp?"+c;
     input.setAttribute("onclick","window.location.href='"+e+"'");
     input.setAttribute("value","烦死了")
     input.setAttribute("type","submit")
