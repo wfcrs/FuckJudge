@@ -4,7 +4,8 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       btapple
-// @match        http://judge*.buaa.edu.cn/assignment/programList.jsp*
+// @match        http://judge.buaa.edu.cn/assignment/programList.jsp*
+// @match        http://judge.e.buaa.edu.cn/assignment/programList.jsp*
 // @grant        none
 // @supportURL   https://github.com/wfcrs/FuckJudge/issues
 // @updateURL    https://github.com/wfcrs/FuckJudge/raw/master/FuckJudge.user.js
