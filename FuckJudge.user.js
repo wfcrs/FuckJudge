@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FuckJudge
 // @namespace    https://github.com/wfcrs/FuckJudge
-// @version      0.13
+// @version      0.14
 // @description  Screw judge.
 // @author       btapple && rynco
 // @match        *://judge.buaa.edu.cn/assignment/programList.jsp*
@@ -12,8 +12,8 @@
 // ==/UserScript==
 
 (function() {
-  function a() {
-    // var a = document.querySelector("iframe[name='showmessage']")
+
+    var a = document.querySelector("iframe[name='showmessage']")
     var b = a.getAttribute('src')
     var c = b.split('?')[1]
     // var d = a.contentDocument.querySelector(
@@ -27,9 +27,7 @@
     input.innerHTML = '烦死了'
     submitButton.after(input)
     submitButton.after(' ')
-  }
 
-  setTimeout(a, 500)
 
   // submitButton.onClick = ()=>{setTimeout(a, 1500)};
 })()
